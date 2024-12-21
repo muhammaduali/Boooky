@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boooky</title>
+    <link rel="stylesheet" href="boooky.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Boooky</h1>
+    </div>
+    <div class="section">
+        <div class="card">
+            <h2>Rich Dad Poor Dad</h2>
+            <h3 style="margin-top: 10px;"><strong>Robert</strong></h3>
+            <p style="margin-top: 10px;">Rich Dad Poor Dad by Robert Kiyosaki explores financial literacy through the perspectives of two father figures: his own educated but financially struggling father, and his friend’s wealthy entrepreneurial father. The book emphasizes the importance of acquiring assets, investing wisely, and breaking free from the cycle of working for money.</p>
+            <button class="del" onclick="de(event)">DELETE   
+            </button>
+        </div>
+    </div>
+    <div class="over"></div>
+    <div class="pop">
+        <div class="box">
+            <h1>Book Details</h1>
+            <form action="">
+                <input type="text" placeholder="Enter Name" id="name-inp">
+                <input type="text" placeholder="Enter Author Name" id="author-name">
+                <textarea name="" id="des" placeholder="Enter Description"></textarea>
+                <button class="pop-add">ADD</button>
+                <button class="pop-del">CANCEL</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <button class="pop_btn">+</button>
+    </div>
+    <script src="booky.js"></script>
+</body>
+</html>

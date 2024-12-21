@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    font-style: normal;
+    background-color:#0C0F14;
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+}
+.card{
+
+    width: 300px;
+    background-color:#0C0F14;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.section{
+    padding: 20px;
+}
+h2,h1{
+    color: #D17842;
+}
+.del{
+    width: 70px;
+    padding: 5px;
+    background-color: #D17842;
+    border: none;
+    border-radius:2PX ;
+    margin-top: 10px;
+}
+.footer{
+    padding:10px;
+    margin-top: 30px;
+}
+.pop_btn{
+    margin-left: 90%;
+    font-size: xxx-large;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px ;
+    padding-right: 22px;
+    color: #D17842;
+    background-color: #0C0F14;
+    border: none;
+    position: fixed;
+}
+
+.over{
+    background-color: #0C0F14;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+.pop{
+    background-color: #0C0F14;
+    color: #D17842;
+    width: 400px;
+    position: absolute;
+    display: none;
+    top: 20%;
+    left: 35%;
+    z-index: 2;
+    padding:20px ;
+    border: solid #D17842 1px;
+    border-radius: 8px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: solid #D17842 1px;
+    background: none;
+}
+textarea{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: solid #D17842 1px;
+    background: none;
+}
+
+.pop button{
+    margin-top: 20px;
+    background-color: #D17842;
+    color: #0C0F14;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+.pop-del{
+    margin-left: 10px;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    color: white;
+}
+
+
+
