@@ -17,7 +17,7 @@ This is a simple one-page application where users can create a personalized book
 ## 🔧 Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
+   git clone https://github.com/muhammaduali/Boooky.git
    ```
 2. Navigate to the project directory:
    ```bash
